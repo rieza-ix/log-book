@@ -1,75 +1,38 @@
-# Nuxt 3 Minimal Starter
+<h2>
+    📁Simple Log Book
+    <img width="13%" style="vertical-align:middle" src="https://badgen.net/badge/status/deployed/green" />
+</h2>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+📝Log book using client-side rendering from Nuxt.
 
-## Setup
+## 💻 Technologies
 
-Make sure to install the dependencies:
+<p align="left">
+    <img width="4.6%" align="center" src="https://www.svgrepo.com/show/452228/html-5.svg">
+    <img width="4.6%" align="center" src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg">
+    <img width="3.4%" align="center" src="https://www.svgrepo.com/show/349419/javascript.svg">
+    <img width="4%" align="center" src="https://www.svgrepo.com/show/354528/vue.svg">
+    <img width="6%" align="center" src="https://nuxt.com/assets/design-kit/icon-green.svg">
+    <img width="4.2%" align="center" src="https://www.svgrepo.com/show/452129/vs-code.svg">
+</p>
 
-```bash
-# npm
-npm install
+## 📖 Manual
 
-# pnpm
-pnpm install
+- Install the project.
 
-# yarn
-yarn install
+  > - Clone this repository to your desired folder: https://github.com/rieza-ix/log-book.git
 
-# bun
-bun install
-```
+  or
 
-## Development Server
+  > - Download the zip file.
+  > - Unzip the project file to your desired folder.
 
-Start the development server on `http://localhost:3000`:
+- Install Dependencies
 
-```bash
-# npm
-npm run dev
+  > - Open the project in Visual Studio Code.
+  > - Go to the terminal.
+  > - Type 'npm install' to install the dependencies.
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Run the project.
+  > - Type 'npm run dev' in your VS Code Terminal.
+  > - Navigate to the link given in the terminal.
