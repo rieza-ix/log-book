@@ -14,7 +14,7 @@
     <img width="4%" align="center" src="https://www.svgrepo.com/show/354528/vue.svg">
     <img width="6%" align="center" src="https://nuxt.com/assets/design-kit/icon-green.svg">
     <img width="4.2%" align="center" src="https://www.svgrepo.com/show/452129/vs-code.svg">
-    <img width="4.6%" align="center" src="https://logowik.com/content/uploads/images/vercel1868.jpg">
+    <img width="8%" align="center" src="https://logowik.com/content/uploads/images/vercel1868.jpg">
 </p>
 
 ## 📖 Manual
