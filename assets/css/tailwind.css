@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  @apply bg-[#F0EBD8] text-gray-800;
+}
+
+.title {
+  @apply text-center font-bold text-lg tracking-wide uppercase mb-8;
+}
+
+label {
+  @apply uppercase text-sm font-bold tracking-wider w-full;
+}
+
+input,
+select {
+  @apply border-b block w-full border-gray-300 h-8 focus:outline-none focus:border-gray-600 uppercase text-sm mb-8;
+}
+
+.btn {
+  @apply bg-[#C49A58] rounded-full px-20 py-2 text-white uppercase shadow-sm font-bold mx-auto tracking-wider flex justify-center;
+}
+
+table {
+  @apply w-full md:table-fixed table-auto;
+}
+
+thead {
+  @apply text-left border-b shadow-sm;
+}
+
+th {
+  @apply whitespace-nowrap md:whitespace-normal uppercase text-sm;
+}
+
+td {
+  @apply py-2 uppercase md:text-sm text-xs;
+}
