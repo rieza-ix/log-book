@@ -2,7 +2,7 @@
     <div class="md:flex gap-4 p-4 md:h-screen">
         <!-- login form data -->
         <div class="md:w-[50%] md:mb-0 mb-4 justify-center flex items-center">
-            <form class="bg-white shadow-md py-8 px-6 md:px-12 my-auto space-y-12 w-full md:w-auto"
+            <form class="bg-white shadow-md py-8 px-6 md:px-12 my-auto"
                 @submit.prevent="handleSubmit">
                 <div>
                     <h1 class="title">Login Form</h1>
@@ -50,8 +50,8 @@
         </div>
 
         <!-- log book (table) -->
-        <div class="w-[100%]">
-            <div class=" relative overflow-x-auto bg-white shadow-md py-8 px-12 m-auto">
+        <div class="w-[100%] my-auto">
+            <div class="relative overflow-x-auto bg-white shadow-md py-8 px-12 m-auto">
                 <h1 class="title">Log Book</h1>
                 <table>
                     <thead>
