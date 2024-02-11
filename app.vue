@@ -1,50 +1,57 @@
 <template>
-    <div class="md:flex gap-4 p-4 md:max-h-screen">
+    <div class="md:flex gap-4 p-4 md:h-screen">
         <!-- login form data -->
-        <div class="md:w-[50%] md:mb-0 mb-4">
-            <form class="bg-white shadow-md py-8 px-12 m-auto" @submit.prevent="handleSubmit">
-                <h1 class="title">Login Form</h1>
-                <div class="grid grid-cols-2 gap-8">
-                    <div>
-                        <label>Last Name:</label>
-                        <input type="text" v-model="lastName">
+        <div class="md:w-[50%] md:mb-0 mb-4 justify-center flex items-center">
+            <form class="bg-white shadow-md py-8 px-6 md:px-12 my-auto space-y-12 w-full md:w-auto"
+                @submit.prevent="handleSubmit">
+                <div>
+                    <h1 class="title">Login Form</h1>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <label>Last Name:</label>
+                            <input type="text" v-model="lastName">
+                        </div>
+                        <div>
+                            <label>First Name:</label>
+                            <input type="text" v-model="firstName">
+                        </div>
                     </div>
+
                     <div>
-                        <label>First Name:</label>
-                        <input type="text" v-model="firstName">
+                        <label>Address:</label>
+                        <input type="text" v-model="address">
                     </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <label>Date:</label>
+                            <input type="date" v-model="date">
+                        </div>
+                        <div>
+                            <label>Time:</label>
+                            <input type="time" v-model="time">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label>Purpose:</label>
+                        <select v-model="purpose">
+                            <option value=""></option>
+                            <option value="Book Appointment">Book Appointment</option>
+                            <option value="Walk-in">Walk-in</option>
+                            <option value="Work">Work (Staff)</option>
+                            <option value="Scheduled Appointment">Scheduled Appointment</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn">Finish</button>
                 </div>
-
-                <label>Address:</label>
-                <input type="text" v-model="address">
-
-                <div class="grid grid-cols-2 gap-8">
-                    <div>
-                        <label>Date:</label>
-                        <input type="date" v-model="date">
-                    </div>
-                    <div>
-                        <label>Time:</label>
-                        <input type="time" v-model="time">
-                    </div>
-                </div>
-
-                <label>Purpose:</label>
-                <select v-model="purpose">
-                    <option value=""></option>
-                    <option value="Book Appointment">Book Appointment</option>
-                    <option value="Walk-in">Walk-in</option>
-                    <option value="Work">Work (Staff)</option>
-                    <option value="Scheduled Appointment">Scheduled Appointment</option>
-                </select>
-
-                <button type="submit" class="btn">Finish</button>
             </form>
         </div>
 
         <!-- log book (table) -->
         <div class="w-[100%]">
-            <div class=" relative overflow-x-auto bg-white shadow-md py-8 px-12 m-auto h-full ">
+            <div class=" relative overflow-x-auto bg-white shadow-md py-8 px-12 m-auto">
                 <h1 class="title">Log Book</h1>
                 <table>
                     <thead>
